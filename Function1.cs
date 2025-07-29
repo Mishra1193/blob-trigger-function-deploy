@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BlobTriggerFunctionApp
 {
+    // Triggering GitHub Actions deployment
     public class Function1
     {
         private readonly ILogger<Function1> _logger;
